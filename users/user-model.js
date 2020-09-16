@@ -21,7 +21,7 @@ function findBy(filter) {
     .join("roles as r", "u.role", "r.id")
     .where(filter)
     .select("u.id", "u.username", "r.name as role", "u.password")
-    .orderBy("id")
+    .orderBy("u.id")
 }
 
 async function add(user) {
