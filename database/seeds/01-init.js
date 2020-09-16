@@ -9,3 +9,5 @@ exports.seed = function(knex) {
         .then(() => console.log("\n== Seed data for roles table added. ==\n"))
     });
 };
+
+
